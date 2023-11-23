@@ -1,0 +1,157 @@
+@media(min-width: 321px){
+    .footer{
+        width: 1140px;
+        margin: 100px auto 0px auto;
+        
+        color: #E4E5EA;
+    }
+    .footer-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer ul{
+        list-style: none;
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+    .footer li{
+        margin-bottom: 10px;
+    }
+    .footer h3{
+        text-transform: uppercase;
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #656566;
+        margin-bottom: 20px;
+    }
+    .footer__menu-block{
+        display: flex;
+    }
+    .footer__menu-block ul:first-child{
+        margin-right: 40px;
+    }
+    .footer__contacts{
+        text-align: right;
+    }
+    .footer__contacts h3{
+        text-align: right;
+    }
+    .footer__telephone{
+        margin-bottom: 15px;
+    }
+    .footer__social{
+        margin-bottom: 15px;
+        width: 80px;
+        margin-left: auto;
+    }
+    .footer-policy{
+        margin-top: 50px;
+        text-align: right;
+        font-family: "Montserrat";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #E4E5EA;
+    }
+    .footer-policy a{
+        color: white;
+        text-decoration: underline;
+    }
+}
+@media(max-width: 320px){
+    .footer{
+        color: #E4E5EA;
+        padding: 50px 20px;
+    }
+    .footer h3{
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #656566;
+        margin-bottom: 10px;
+    }
+    .footer-wrapper > div{
+        margin-bottom: 20px;
+    }
+    .footer ul{
+        width: 40%;
+        list-style: none;
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+    .footer li{
+        margin-bottom: 10px;
+    }
+    .footer__menu-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__company ul{
+        width: 100%;
+    }
+    .footer__menu-list li:nth-child(1){
+        order: -1;
+    }
+    .footer__menu-list li:nth-child(2){
+        order: -2;
+    }
+    .footer__social{
+        width: 40%;
+    }
+    .footer h3{
+        text-transform: uppercase;
+        font-family: "Inter";
+        font-size: 14px;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+    .footer__menu-block{
+        display: flex;
+    }
+    .footer__telephone{
+        margin-bottom: 10px;
+    }
+    .footer__social{
+        margin-bottom: 10px;
+        width: 25%;
+    }
+    .footer__adress{
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .footer-policy{
+        font-family: "Montserrat";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #E4E5EA;
+    }
+    .footer-policy a{
+        color: white;
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,1 @@
+# Запуск проекта происходит по команде  => live-server --browser=chrome

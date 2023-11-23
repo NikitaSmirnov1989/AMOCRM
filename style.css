@@ -1,0 +1,84 @@
+@import url("./css/header.css");
+@import url("./css/content.css");
+@import url("./css/footer.css");
+*{
+        padding: 0px;
+        margin: 0px;
+        outline: none;
+        box-sizing: border-box;
+    }
+.wrapper{
+    background: #0E1014;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.display{
+    display: none;
+}
+@media(min-width: 321px){
+    body{
+        background: #0E1014;
+    }
+    .wrapper{
+        width: 1440px;
+        margin: 0px auto;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .purple-ball, .red-ball, .red-ball-small, .red-light, .purple-light{
+        position: absolute;    
+    }
+    .purple-ball{
+        top: 0px;
+        left: 60%;
+    }
+    .red-ball{
+        top: 7%;
+        left: 37%;
+    }
+    .red-ball-small{
+        top: 55%;
+        left: 60%;
+    }
+    .purple-light{
+        top: 0%;
+        left: 12%;
+    }
+    
+}
+@media(max-width: 320px){
+    .wrapper{
+        width: 320px;
+        padding: 0px;
+        position: relative;
+        overflow: hidden;
+    }
+    .purple-ball, .red-ball, .red-ball-small, .red-light, .purple-light{
+        display: none;    
+    }
+    .purple-ball{
+        display: block;
+        position: absolute;
+        left: 87%;
+        top: 25%;
+    }
+    .red-ball-small{
+        display: block;
+        position: absolute;
+        left: 4%;
+        top: 42%;
+    }
+    .purple-light{
+        display: block;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        z-index: 10;
+        width: 100%;
+    };
+}

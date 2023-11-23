@@ -1,0 +1,185 @@
+@media(min-width: 321px){
+    .content{
+        display: flex;
+        justify-content: space-between;
+        color: #E4E5EA;
+        width: 1140px;
+        margin: 0px auto;
+        margin-top: 136px;
+    }
+    .content__leftblock-h1{
+        width: 362px;
+        font-family: "Inter";
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .welbex{
+        font-family: "Inter";
+        font-weight: 900;
+        letter-spacing: 0em;
+        background: -webkit-linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .content__leftblock-h1 .welbex{
+        text-align: left;
+        font-size: 48px;
+    }
+    .content__leftblock-desc{
+        margin-top: 20px;
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 275px;
+    }
+    .content__rightblock{
+        width: 320px;
+    }
+    
+    .content__rightblock-h2{
+        font-family: "Inter";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        text-align: right;
+        margin-bottom: 30px;
+    }
+    .content__rightblock-desc{
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+    .content__leftblock-h2 .welbex{
+        text-align: right;
+        font-size: 18px;
+    }
+    .content__rightblock-desc h3{
+        font-family: "Inter";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    .content__rightblock-desc > div{
+        width: 134px;
+        text-align: right;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+    .content__rightblock-btn{
+        margin-top: 50px;
+        text-align: right;
+    }
+    .content__rightblock-btn button{
+        width: 262px;
+        height: 61px;
+        background: #4077F3;
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        color: #E4E5EA;
+        border: none;
+    }
+}
+@media(max-width: 320px){
+    .content{
+        padding: 50px 20px;
+        color: #E4E5EA;
+    }
+    .content__leftblock-h1{
+        font-family: "Inter";
+        color: #E4E5EA;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .welbex{
+        font-family: "Inter";
+        font-weight: 900;
+        letter-spacing: 0em;
+        background: -webkit-linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .content__leftblock{
+        margin-bottom: 40px;
+    }
+    .content__leftblock-desc{
+        margin-top: 20px;
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .content__rightblock-h2{
+        font-family: "Inter";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .content__leftblock-h2 .welbex{
+        font-weight: 700;
+    }
+    .content__rightblock-desc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content__rightblock-desc > div{
+        width: 50%;
+        font-family: "Montserrat";
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .first{
+        order: 2;
+    }
+    .first:after{
+        content: "30 ВИДЖЕТОВ";
+    }
+    
+    .second{
+        order: 3;
+    }
+    .second:after{
+        content: "DASHBOARD";
+    }
+    .third{ 
+        order: 1;
+    }
+    .third:after{
+        content: "SKYPE АУДИТ";
+    }
+    .fouth{
+        order: 4;
+    }
+    .fouth:after{
+        content: "МЕСЯЦ AMOCRM";
+    }
+    .fouth:before, .third:before, .second:before, .first:before{
+        content: url(../img/content/line.svg);
+        transform: translateY(-10px);
+        position: relative;
+        top: -4px;
+    }
+}
